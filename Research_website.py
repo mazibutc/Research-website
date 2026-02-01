@@ -22,7 +22,7 @@ st.write(f"Institution: {Institution}")
 
 st.header("Research outline")
 multi = '''This main focus area of this research is on the plant-wide fault detection of the Tenessee Eastman chemical process (TEP)
-with 20 simulated faults. Three machine learning algorithms were investigated. These algorithms are the vanilla neural network autoencoder, 
+with 20 simulated faults. Three machine learning algorithms were investigated. These algorithms are the vanilla neural network autoencoder, the 
 dynamic neural network autoencoder and the Long Short Term Memory (LSTM) autoencoder. The metric used in measuring the accuracy of the alogithms was the 
 fault detection rate (FDR), also known as the true positive rate. Since artficial neural networks are non deterministic models in their nature,
 30 (or more) independent runs were carried out for each fault so as to gain statistical insight into the performance of each algorithm.'''
